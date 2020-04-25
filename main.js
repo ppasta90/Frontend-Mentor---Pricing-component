@@ -13,8 +13,8 @@ card.forEach((card) => {
 /* switch annual-monthly */
 
 const toggle = document.querySelector("input");
-const annual = document.querySelectorAll("#year")
-const monthly = document.querySelectorAll("#month")
+const annual = document.querySelectorAll(".year")
+const monthly = document.querySelectorAll(".month")
 
 toggle.addEventListener("change", (e) => {
     if (toggle.checked) {
